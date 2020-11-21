@@ -1,0 +1,103 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "happy商城"
+			}
+		}
+	    ,{
+            "path" : "pages/cart/cart",
+            "style" : {
+				"navigationBarTitleText": "购物车"
+			}
+        }
+        ,{
+            "path" : "pages/member/member",
+            "style" : {
+				"navigationBarTitleText": "会员"
+			}
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" : {
+				"navigationBarTitleText": "新闻咨询"
+			}
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" : {
+				"navigationBarTitleText": "商品列表",
+				"enablePullDownRefresh":true
+			}
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" : {
+				"navigationBarTitleText": "社区图片"
+			}
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" : {
+				"navigationBarTitleText": "联系我们"
+			}
+        }
+        ,{
+            "path" : "pages/videos/videos",
+            "style" : {
+				"navigationBarTitleText": "学习视频"
+			}
+        }
+        ,{
+            "path" : "componments/goods-list/goods-list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/news-detail/news-detail",
+            "style" : {
+				"navigationBarTitleText": "咨询详情"
+			}
+        }
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "happy商城",
+		"navigationBarBackgroundColor": "#b50e03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"selectedColor":"#b50e03",
+		"color":"#ccc",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/icon/home.png",
+				"selectedIconPath":"static/icon/home1.png"
+			},
+			{
+				"text":"咨询",
+				"pagePath":"pages/news/news",
+				"iconPath":"static/icon/news.png",
+				"selectedIconPath":"static/icon/news1.png"
+			},
+			{
+				"text":"购物车",
+				"pagePath":"pages/cart/cart",
+				"iconPath":"static/icon/cart.png",
+				"selectedIconPath":"static/icon/cart1.png"
+			},
+			{
+				"text":"会员",
+				"pagePath":"pages/member/member",
+				"iconPath":"static/icon/member.png",
+				"selectedIconPath":"static/icon/member1.png"
+			}
+		]
+	}
+}
